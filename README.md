@@ -51,19 +51,19 @@ It is highly recommended to at least run the `build.sh` script once, even if you
 1. **Run tests:**
 
 ```bash
-  mvn clean test
+mvn clean test
 ```
 
 2. **Compile the project:**
 
 ```bash
-  mvn clean compile
+mvn clean compile
 ```
 
 3. **Run the project:**
 
 ```bash
-  mvn javafx:run
+mvn javafx:run
 ```
 
 ### Using the build script
@@ -71,7 +71,7 @@ It is highly recommended to at least run the `build.sh` script once, even if you
 1. **Execute the script:**
 
 ```bash
-  ./build.sh
+./build.sh
 ```
 
 2. **Select the correct option:**
@@ -83,7 +83,7 @@ When prompted, type C for compile. The project will be compiled and, if you did 
 Here you have two choices: either start the `build.sh` script and select R, or use this command:
 
 ```bash
-  mvn javafx:run
+mvn javafx:run
 ```
 
 ### Prod Build
@@ -93,19 +93,19 @@ Here you have two choices: either start the `build.sh` script and select R, or u
 1. **Package the application:**
 
 ```bash
-  mvn clean package
+mvn clean package
 ```
 
 2. **Build the application with JavaFX support:**
 
 ```bash
-  mvn clean javafx:jlink
+mvn clean javafx:jlink
 ```
 
 3. **Copy the build artifacts:**
 
 ```bash
-  cp -r target/visualizer /path/to/your/binaries
+cp -r target/visualizer /path/to/your/binaries
 ```
 
 4. **Run the application:**
@@ -117,7 +117,7 @@ Execute the file located at: `visualizer/bin/visualizer`
 1. **Launch the script:**
 
 ```bash
-  ./build.sh
+./build.sh
 ```
 
 2. **Select the correct option:**
@@ -127,7 +127,7 @@ When prompted, type B for bundle.
 3. **Copy the build artifacts:**
 
 ```bash
-  cp -r target/visualizer /path/to/your/binaries
+cp -r target/visualizer /path/to/your/binaries
 ```
 
 4. **Run the application:**
@@ -145,13 +145,13 @@ To get started:
 1. Clone the repository:
 
 ```bash
-  git clone https://github.com/Riley-dsv/Algo-visualiser.git
+git clone https://github.com/Riley-dsv/Algo-visualiser.git
 ```
 
 2. Create a new branch:
 
 ```bash
-  git checkout -b <feature-name>
+git checkout -b <feature-name>
 ```
 
 3. Follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification for your commit messages.
@@ -159,7 +159,7 @@ To get started:
 4. Push your branch and open a pull request:
 
 ```bash
-  git push origin <feature-name>
+git push origin <feature-name>
 ```
 
 ---
